@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(assets/fonts/bebasneuecyrillic.ttf);
+}
+
+
+
+/*Шапка сайта*/
+header {
+    background-color: rgb(207, 207, 207);
+}
+
+h1, h2, h3, h4, .btn {
+    font-family: 'Bebas';
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+span, li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+li {
+    font-weight: 300;
+}
+
+.btn {
+    background-color: rgb(190, 0, 0);
+    font-size: 24px;
+    border: none;
+}
+
+    .btn:hover {
+        background-color: rgb(190, 0, 0);
+        border: none;
+    }
+
+p, label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-control {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.modal-title {
+    color: rgb(190, 0, 0);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+
+/*Галерея*/
+.carousel-control-prev-icon {
+    background-image: url(assets/img/png/prev.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(assets/img/png/next.png);
+}
+
+
+/*О клубе*/
+h2 {
+    font-size: 42px;
+}
+
+.about {
+    background-color: rgb(207, 207, 207);
+}
+
+.about p {
+    text-align: justify;
+}
+
+.service p {
+    text-align: center;
+}
+
+.week {
+    color: red;
+}
+
+
+/*Отзывы*/
+.reviews {
+    background-image: url(assets/img/jpg/rew-bg.jpg);
+}
+
+.reviews p {
+    text-align: justify;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.rew-but {
+    background: none;
+    border: none;
+}
+
+
+/*Контакты*/
+.contact {
+    background-color: rgb(207, 207, 207);
+}
